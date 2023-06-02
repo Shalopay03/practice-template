@@ -336,4 +336,11 @@ nav > p{
 }
 #slice-bottom{
     margin-top: -100px;
+    margin-bottom: 100px;
+}
+
+/*footer section*/
+footer{
+    text-align: center;
+    height: 50px;
 }
