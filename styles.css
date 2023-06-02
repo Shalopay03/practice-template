@@ -72,3 +72,93 @@ nav > p{
     font-weight: 600;
     padding: 20px 40px;
 }
+
+#dots{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.dot{
+    border-radius: 100%;
+    background-color: grey;
+    width: 8px;
+    height: 8px;
+}
+
+.dot-top{
+    opacity: 20%;
+}
+
+.dot-center{
+    opacity: 40%;
+}
+
+
+.dot-bottom{
+    opacity: 60%;
+}
+
+#about-us{   
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+#timeline{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#timeline > div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#timeline-left > #event-2011{
+    margin-top: 90px;
+}
+
+#timeline-left > #event-2013{
+    margin-top: 135px;
+}
+
+#timeline-right > #event-2012{
+    margin-top: 170px;
+}
+
+#timeline-right > #event-2014{
+    margin-top: 210px;
+}
+
+#timeline-center {
+    height: 750px;
+    margin-bottom: -50px;
+}
+
+#building-img{
+    background-image: url("images/Black.png");
+}
+
+.left-year{
+    text-align: right;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.right-year{
+    text-align: left;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.timeline-text{
+    color: grey;
+    margin-top: 10px;
+}
